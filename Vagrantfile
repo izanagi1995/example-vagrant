@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "vagrant-exampke"
+  config.vm.box = "archlinux/archlinux"
   config.vm.define "vagrant-example"
   config.vm.hostname = "vagrant-example"
 
